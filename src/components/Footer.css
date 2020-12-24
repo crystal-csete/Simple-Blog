@@ -1,0 +1,16 @@
+
+
+
+.footer {
+    background: teal;
+    height: 20vh;
+    border: 6px solid lightgray;
+    border-radius: 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+}
