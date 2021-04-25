@@ -1,9 +1,4 @@
-
 /* postList styles */
-
-body {
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-}
 
 .empty_post_list {
     min-height: 90vh;
@@ -29,8 +24,8 @@ body {
 } 
 
 .post_list_space_filler {
-    background-image: url('./assests/post_bg.jpg');
-    background-position: center;
+    background-image: url('./assests/airplane_bg.jpg');
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 2rem;
@@ -42,5 +37,10 @@ body {
     border-top: 1px solid black;
     padding-bottom: 2rem;
     min-height: 90vh;
+}
 
+p {
+    color: #fff;
+    font-size: 0.5rem;
+    font-weight: 700;
 }
