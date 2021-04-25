@@ -28,7 +28,7 @@ const PostList = () => {
 
   return (
     <div className="post_list_space_filler">
-      <h3>This is where you can review your posts. </h3>
+      <h3>This is where you can review your posts.</h3>
       <p>Click on your post below. You can then edit your post, or delete it. Go to the Post List in the navigation to see all of your posts in one place.</p>
     
     <div className="post_list_container">
