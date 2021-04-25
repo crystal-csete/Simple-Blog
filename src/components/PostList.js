@@ -35,6 +35,7 @@ const PostList = () => {
       {posts.map((item, index) => {
         if (item) {
           return (
+            <div>
             <PostItem
               title={item.title}
               content={item.content}
@@ -42,6 +43,7 @@ const PostList = () => {
                 onItemClicked(item, index);
               }}
             />
+            </div>
           );
         }
         return null;
