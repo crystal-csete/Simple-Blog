@@ -1,30 +1,18 @@
-import React from 'react';
-import store from './redux/createStore';
-import { Provider } from 'react-redux';
-import "./App.css";
+import React from "react";
 
-import NewPost from './components/NewPosts';
-import PostList from './components/PostList';
+import Sider from "./components/Sider";
 import Footer from './components/Footer';
-// import Navigation from './components/Navigation';
 
-
+import "./App.css";
 
 const App = () => {
   return (
-    <Provider store={store}> 
     <div>
-      {/* <Navigation /> */}
-      <div>
-        <h1>Posts!</h1>
-        <NewPost />
-        <PostList />
-      </div>
+      <h1>Welcome to my Travel blog Page!</h1>
+      <Sider />
       <Footer />
-      
     </div>
-    </Provider>
-  )
-}
+  );
+};
 
-export default App
+export default App;

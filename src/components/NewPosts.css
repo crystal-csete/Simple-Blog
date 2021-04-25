@@ -1,34 +1,83 @@
 
+/* newPost styles */
 
-
-.new-posts-container {
-    background: lightblue;
-    display: flex;
-    flex-direction: column;
-    border: 6px solid gray;
-    border-radius: 10px;
-    height: 100%;
-   
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+.new_post_container {
+  background-color: #001529;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 
+}
+
+.new_post_space_filler {
+  background: transparent;
+  margin-top: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid #001529; */
+  padding: 4rem;
+}
+
+h3 {
+  color: #1890ff;
+}
 
 input {
-    padding: 1rem;
-    margin: 2rem;
-    border-radius: 10px;
-    text-align: center;
+  width: 10rem;
+  text-align: center;
+  
 }
 
 textarea {
-    padding: 1rem;
-    margin: 2rem;
-    border-radius: 10px;
-    text-align: center;
+  min-width: 10rem;
+  width: 100%;
+  min-height: 10rem;
+  height: 10rem;
 }
 
-button {
-    padding: 1rem;
-    border-radius: 10px;
-    margin: 2rem;
+textarea:placeholder-shown {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+/* .add_post_btn {
+  margin: 1rem;
+  background-color: #001529;
+  color: #fff;
+}
+
+.add_post_btn:hover {
+  margin: 1rem;
+  background-color: #1890ff;
+  color: #fff;
+} */
+
+button.ant-btn {
+  background-color: #0c2741;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 1rem;
+}
+
+button.ant-btn:hover {
+  background-color: #2b679e;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 1rem;
+}
+
+.form_input_btn_wrapper {
+  
 }
