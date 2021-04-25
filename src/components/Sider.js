@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import NewPosts from '../components/NewPosts';
 import PostList from '../components/PostList';
+import Account from '../components/Account';
+import Support from '../components/Support';
 
 import 'antd/dist/antd.css';
 import './Sider.css';
@@ -40,8 +42,14 @@ const Sider = () =>  {
           </SubMenu>
 
           <SubMenu key="sub2" icon={<AppstoreOutlined />} title="Account Details">
-            <Menu.Item key="5"><UserOutlined /> Account</Menu.Item>
-            <Menu.Item key="6"><QuestionCircleOutlined /> Support</Menu.Item>
+
+            <Menu.Item key="5">
+              <Link to="/account"><UserOutlined /> Account</Link> 
+            </Menu.Item>
+            <Menu.Item key="6">
+              <Link to="/support"><QuestionCircleOutlined /> Support</Link> 
+            </Menu.Item>
+
           </SubMenu>
 
           <SubMenu key="sub4" icon={<SettingOutlined />} title="Travel Info">
@@ -58,6 +66,12 @@ const Sider = () =>  {
         </Route>
         <Route path="/postList">
           <PostList />
+        </Route>
+        <Route path="/account">
+          <Account />
+        </Route>
+        <Route path="/support">
+          <Support />
         </Route>
       </Router>
       

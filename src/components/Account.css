@@ -1,0 +1,11 @@
+/* account styles */
+
+.account_page {
+    min-height: 90vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
