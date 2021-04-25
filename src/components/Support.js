@@ -4,7 +4,7 @@ import './Support.css';
 const Support = () => {
     return (
         <div className="support_page">
-            <h1>This will be where the FAQ is Page</h1>
+            <h1>This will be where the FAQ Page is</h1>
         </div>
     )
 }

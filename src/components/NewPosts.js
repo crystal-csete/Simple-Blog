@@ -4,8 +4,8 @@ import postsActions from "../redux/actions/postsActions";
 import newPostActions from "../redux/actions/newPostActions";
 
 import { Input, Typography, Button, Image } from 'antd';
-import { PictureOutlined } from '@ant-design/icons';
-import bg from './assests/bg.jpg'
+// import { PictureOutlined } from '@ant-design/icons';
+// import bg from './assests/bg.jpg'
 import "./NewPosts.css";
 
 const NewPost = () => {
@@ -49,7 +49,7 @@ const NewPost = () => {
 
   return (
     <div className="bg_image">
-      <Image fallback={<PictureOutlined />} preview={false} src={bg} alt="background" />
+      {/* <Image fallback={<PictureOutlined />} preview={false} src={bg} alt="background" /> */}
     
     <div className="new_post_space_filler">
       
