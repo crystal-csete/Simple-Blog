@@ -1,10 +1,14 @@
 import React from 'react';
+import { Card } from 'antd';
 import './Account.css';
 
 const Account = () => {
     return (
         <div className="account_page">
-            <h1>This will have your account details Page</h1>
+            <Card className="account_card" title="Your Account">
+                <p>Username:</p>
+                <p>Email:</p>
+            </Card>
         </div>
     )
 }
