@@ -1,11 +1,13 @@
 
-/* postList styles */
+
+
+/* yourPosts styles */
 
 body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
-.empty_post_list {
+.empty_your_post {
     min-height: 90vh;
     height: 100%;
     width: 100%;
@@ -13,10 +15,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
-.post_list_container {
+.your_post_container {
     background-color: #001529;
     margin-top: 2rem;
     display: flex;
@@ -25,22 +26,27 @@ body {
     align-items: center;
     max-width: 40rem;
     width: 100%;
-    border: 1px solid black;
+    padding: 1rem;
+    position: relative;
 } 
 
-.post_list_space_filler {
+.your_post_container button {
+    display: none;
+}
+
+.your_post_space_filler {
     background-image: url('./assests/post_bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-top: 1px solid black;
+    border: 1px solid black;
     padding-bottom: 2rem;
     min-height: 90vh;
 
 }
+

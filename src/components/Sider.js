@@ -5,6 +5,7 @@ import NewPosts from '../components/NewPosts';
 import PostList from '../components/PostList';
 import Account from '../components/Account';
 import Support from '../components/Support';
+import YourPosts from '../components/YourPosts';
 
 import 'antd/dist/antd.css';
 import './Sider.css';
@@ -19,9 +20,6 @@ const Sider = () =>  {
   
     return (
       <Router>
-
-        <br />
-        <br />
         <Menu
           className="sider_menu"
           defaultOpenKeys={['sub1']}
@@ -34,11 +32,17 @@ const Sider = () =>  {
             </Menu.Item>
 
             <Menu.Item key="2">
-              <Link to="/postList"><UnorderedListOutlined /> Your Posts</Link>
+              <Link to="/yourPosts"><UnorderedListOutlined /> Your Posts</Link>
             </Menu.Item>
 
-            <Menu.Item key="3">Option 3</Menu.Item>
-            <Menu.Item key="4">Option 4</Menu.Item>
+            <Menu.Item key="3">
+              Option 3 
+            </Menu.Item>
+
+            <Menu.Item key="4">
+              Option 4
+            </Menu.Item>
+
           </SubMenu>
 
           <SubMenu key="sub2" icon={<AppstoreOutlined />} title="Account Details">
@@ -46,6 +50,7 @@ const Sider = () =>  {
             <Menu.Item key="5">
               <Link to="/account"><UserOutlined /> Account</Link> 
             </Menu.Item>
+            
             <Menu.Item key="6">
               <Link to="/support"><QuestionCircleOutlined /> Support</Link> 
             </Menu.Item>
@@ -64,8 +69,8 @@ const Sider = () =>  {
           <NewPosts />
           <PostList />
         </Route>
-        <Route path="/postList">
-          <PostList />
+        <Route path="/yourPosts">
+          <YourPosts />
         </Route>
         <Route path="/account">
           <Account />

@@ -1,17 +1,20 @@
-import React from 'react';
-import './PostItem.css';
+import React from "react";
+import { Button, Typography, Input } from "antd";
+import "./PostItem.css";
 
 const PostItem = ({ title, content, onItemClicked }) => {
-    return (
-        <div
-        className="posts_item_container"
-        role="button"
-        onClick={onItemClicked}
-        >
-            <h2>{title}</h2>
-            <p>{content}</p>
-        </div>
-    );
+
+  const { Title } = Typography;
+  const { TextArea } = Input;
+
+
+  return (
+    <div className="posts_item_container">
+      <Title level={3}>{title}</Title>
+      <p>{content}</p>
+      <Button onClick={onItemClicked}>Edit</Button>
+    </div>
+  );
 };
 
 export default PostItem;
