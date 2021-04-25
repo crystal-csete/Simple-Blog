@@ -1,16 +1,17 @@
 
 
 
-.footer {
-    background: teal;
-    height: 20vh;
-    border: 6px solid lightgray;
-    border-radius: 10px;
+footer {
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #001529;
 }
 
-h3 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 3rem;
+h5.ant-typography {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: 400;
 }

@@ -1,11 +1,14 @@
 import React from 'react';
+import { Typography } from 'antd';
 import "./Footer.css";
 
 const Footer = () => {
+
+    const { Title } = Typography
     return (
-        <div className="footer">
-            <h3>Just for fun!</h3>
-        </div>
+        <footer className="footer">
+            <Title level={5}>Copyright &#169; 2021 Crystal's Pages All Rights Reserved.</Title>
+        </footer>
     )
 }
 

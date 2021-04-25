@@ -1,5 +1,41 @@
 
+/* postList styles */
 
-.post-list-container {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empty_post_list {
+    min-height: 90vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+
+}
+
+.post_list_container {
     background: lightgray;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid black;
+} 
+
+.post_list_space_filler {
+    background: transparent;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    padding-bottom: 2rem;
 }

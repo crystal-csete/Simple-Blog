@@ -4,7 +4,7 @@ import './PostItem.css';
 const PostItem = ({ title, content, onItemClicked }) => {
     return (
         <div
-        className="posts-item-container"
+        className="posts_item_container"
         role="button"
         onClick={onItemClicked}
         >
