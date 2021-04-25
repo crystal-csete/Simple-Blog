@@ -5,9 +5,18 @@ body {
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+.bg_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 2rem; */
+
+}
+
 .new_post_container {
   background-color: #001529;
-  margin-top: 2rem;
+  margin-top: 6%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,14 +27,14 @@ body {
 
 .new_post_space_filler {
   background: transparent;
-  margin-top: 16rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* border: 1px solid #001529; */
   padding: 4rem;
+  min-height: 90vh;
 }
 
 h3 {
@@ -50,18 +59,6 @@ textarea:placeholder-shown {
   padding-top: 3rem;
 }
 
-/* .add_post_btn {
-  margin: 1rem;
-  background-color: #001529;
-  color: #fff;
-}
-
-.add_post_btn:hover {
-  margin: 1rem;
-  background-color: #1890ff;
-  color: #fff;
-} */
-
 button.ant-btn {
   background-color: #0c2741;
   color: #fff;
@@ -78,6 +75,4 @@ button.ant-btn:hover {
   margin: 1rem;
 }
 
-.form_input_btn_wrapper {
-  
-}
+

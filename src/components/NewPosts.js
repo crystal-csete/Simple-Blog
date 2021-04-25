@@ -4,6 +4,7 @@ import postsActions from "../redux/actions/postsActions";
 import newPostActions from "../redux/actions/newPostActions";
 
 import { Input, Typography, Button } from 'antd';
+import bg from './assests/bg.jpg'
 import "./NewPosts.css";
 
 const NewPost = () => {
@@ -44,8 +45,13 @@ const NewPost = () => {
   };
 
   return (
+    <div className="bg_image">
+      <img src={bg} alt="background" />
+    
     <div className="new_post_space_filler">
+      
       <Title level={3}>This is where you can create a post about your travels.</Title>
+      <p>Once you add a post, click on it for more options. You can edit your post from this page.</p>
     <div className="new_post_container">
       <Input
         type="text"
@@ -72,7 +78,7 @@ const NewPost = () => {
           </Button>
         )}
       </div>
-      
+      </div>
       </div>
     </div>
   );

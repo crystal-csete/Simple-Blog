@@ -8,6 +8,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #001529;
+    /* position: absolute; */
 }
 
 h5.ant-typography {

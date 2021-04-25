@@ -1,2 +1,21 @@
 
 
+.sider_menu {
+    max-width: 256px;
+    position: absolute;
+    background-color: #001529;
+    color: #fff;
+}
+
+.ant-menu-submenu-arrow {
+    color: #fff;
+}
+
+.ant-menu-sub.ant-menu-inline {
+    background-color: #001529;
+    color: #fff;
+}
+
+.ant-menu-item a {
+    color: #fff;
+}
