@@ -20,7 +20,6 @@
     align-items: center;
     max-width: 40rem;
     width: 100%;
-    border: 1px solid black;
 } 
 
 .post_list_space_filler {
@@ -40,7 +39,6 @@
 }
 
 p {
-    color: #fff;
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-weight: 700;
 }

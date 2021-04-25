@@ -20,7 +20,7 @@ const YourPosts = () => {
 
   return (
     <div className="your_post_space_filler">
-      <h3>This is where you can review your posts.</h3>
+      <h2>This is where you can review your posts.</h2>
     
     <div className="your_post_container">
       {posts.map((item, index) => {
