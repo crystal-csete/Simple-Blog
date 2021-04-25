@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import PostItem from "./PostItem";
 import newPostActions from "../redux/actions/newPostActions";
 
-import { Typography, Image } from 'antd';
+import { Typography, Image, Card } from 'antd';
 import bg from '../components/assests/airplane_bg.jpg'
 import './PostList.css';
 
@@ -39,7 +39,7 @@ const PostList = () => {
       {posts.map((item, index) => {
         if (item) {
           return (
-            <div>
+            <Card>
             <PostItem
               title={item.title}
               content={item.content}
@@ -47,7 +47,7 @@ const PostList = () => {
                 onItemClicked(item, index);
               }}
             />
-            </div>
+            </Card>
           );
         }
         return null;

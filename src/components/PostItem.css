@@ -1,14 +1,12 @@
 /* postItem styles */
 
-.posts_item_container {
+.post_item_container {
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 1rem;
-    margin: 1rem;
     width: 35rem;
-    height: 10rem;
+    overflow: hidden;    
 }
 
