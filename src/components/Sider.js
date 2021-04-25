@@ -10,7 +10,7 @@ import YourPosts from '../components/YourPosts';
 import 'antd/dist/antd.css';
 import './Sider.css';
 import { Menu, Avatar } from 'antd';
-import { QuestionCircleOutlined, UserOutlined, AppstoreOutlined, SettingOutlined, EditOutlined, UnorderedListOutlined } from '@ant-design/icons';
+import { QuestionCircleOutlined, UserOutlined, InfoCircleOutlined, SettingOutlined, EditOutlined, UnorderedListOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
 
@@ -35,17 +35,9 @@ const Sider = () =>  {
               <Link to="/yourPosts"><UnorderedListOutlined /> Your Posts</Link>
             </Menu.Item>
 
-            <Menu.Item key="3">
-              Option 3 
-            </Menu.Item>
-
-            <Menu.Item key="4">
-              Option 4
-            </Menu.Item>
-
           </SubMenu>
 
-          <SubMenu key="sub2" icon={<AppstoreOutlined />} title="Account Details">
+          <SubMenu key="sub2" icon={<SettingOutlined />} title="Account Details">
 
             <Menu.Item key="5">
               <Link to="/account"><UserOutlined /> Account</Link> 
@@ -57,7 +49,7 @@ const Sider = () =>  {
 
           </SubMenu>
 
-          <SubMenu key="sub4" icon={<SettingOutlined />} title="Travel Info">
+          <SubMenu key="sub4" icon={<InfoCircleOutlined />} title="Travel Info">
             <Menu.Item key="7">Top 5 Travel Desinations</Menu.Item>
             <Menu.Item key="8">Travel Tips</Menu.Item>
             <Menu.Item key="9">Covid facts</Menu.Item>
