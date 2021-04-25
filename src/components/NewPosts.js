@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import postsActions from "../redux/actions/postsActions";
 import newPostActions from "../redux/actions/newPostActions";
 
-import { Input, Typography, Button, Image, DatePicker } from 'antd';
+import { Input, Typography, Button, Image } from 'antd';
 import { PictureOutlined } from '@ant-design/icons';
 import bg from './assests/bg.jpg'
 import "./NewPosts.css";
@@ -17,9 +17,6 @@ const NewPost = () => {
   const { Title } = Typography;
   const { TextArea } = Input;
 
-  const changeDate = (date, dateString) => {
-    console.log(date, dateString);
-  }
 
   const addPost = () => {
     if (title && content) {
@@ -57,9 +54,9 @@ const NewPost = () => {
     <div className="new_post_space_filler">
       
       <Title level={3}>This is where you can create a post about your travels.</Title>
-      <p>Once you add a post, click on it for more options. You can edit your post from this page.</p>
+      <Title level={4}>Once you add a post, click on it for more options.</Title> 
+      <Title level={4}>You can edit your post from this page.</Title>
     <div className="new_post_container">
-      <DatePicker onChange={changeDate} />
       <Input
         type="text"
         size="large"
