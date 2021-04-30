@@ -5,6 +5,10 @@ body {
 }
 
 .empty_your_post {
+    background-image: url('./assests/post_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 90vh;
     height: 100%;
     width: 100%;
