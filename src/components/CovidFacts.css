@@ -1,0 +1,25 @@
+/* covidFacts styles */
+
+.covidFactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #001529;
+    min-height: 90vh;
+    height: 100%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.covidCard {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.covidCard h3.ant-typography  {
+    margin-bottom: 1rem;
+    text-align: start;
+}

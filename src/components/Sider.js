@@ -6,6 +6,9 @@ import PostList from '../components/PostList';
 import Account from '../components/Account';
 import Support from '../components/Support';
 import YourPosts from '../components/YourPosts';
+import TravelDestinations from '../components/TravelDestinations';
+import TravelTips from '../components/TravelTips';
+import CovidFacts from '../components/CovidFacts';
 
 import 'antd/dist/antd.css';
 import './Sider.css';
@@ -50,9 +53,19 @@ const Sider = () =>  {
           </SubMenu>
 
           <SubMenu key="sub4" icon={<InfoCircleOutlined />} title="Travel Info">
-            <Menu.Item key="7">Top 5 Travel Desinations</Menu.Item>
-            <Menu.Item key="8">Travel Tips</Menu.Item>
-            <Menu.Item key="9">Covid facts</Menu.Item>
+
+            <Menu.Item key="7">
+              <Link to="/travelDestinations"> Top 5 Travel Desinations</Link>
+            </Menu.Item>
+            
+            <Menu.Item key="8">
+              <Link to="/travelTips"> Travel Tips</Link>
+            </Menu.Item>
+            
+            <Menu.Item key="9">
+              <Link to="/covidFacts"> Covid facts</Link> 
+            </Menu.Item>
+          
           </SubMenu>
           
         </Menu>
@@ -69,6 +82,15 @@ const Sider = () =>  {
         </Route>
         <Route path="/support">
           <Support />
+        </Route>
+        <Route path="/travelDestinations">
+          <TravelDestinations />
+        </Route>
+        <Route path="/travelTips">
+          <TravelTips />
+        </Route>
+        <Route path="/covidFacts">
+          <CovidFacts />
         </Route>
       </Router>
       
