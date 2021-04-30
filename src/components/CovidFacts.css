@@ -1,18 +1,21 @@
 /* covidFacts styles */
 
-.covidFactsContainer {
+.covid_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #001529;
     min-height: 90vh;
     height: 100%;
     border-bottom: 1px solid #ffffff;
     padding: 3rem 0 3rem 0;
+    background-image: url('./assests//blue_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.covidCard {
+.covid_card {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -20,7 +23,7 @@
     align-items: center;
 }
 
-.covidCard h3.ant-typography  {
+.covid_card h3.ant-typography  {
     margin-bottom: 1rem;
     text-align: start;
 }

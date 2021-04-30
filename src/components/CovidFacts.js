@@ -7,9 +7,9 @@ const CovidFacts = () => {
 
 
     return (
-        <div className="covidFactsContainer">
+        <div className="covid_container">
             
-            <Card className="covidCard" title="Covid Facts" size="default">
+            <Card className="covid_card" title="Covid Facts" size="default">
                 <Title level={3}>Is it okay to travel during the COVID-19 pandemic?</Title>
                 <p>Non-essential travel is not recommended, and some kinds of travel may pose higher risks.</p>
                 <p>Airline travel may be riskier because of time spent in lines and terminals can make distancing difficult, and you may have to sit near others for long periods of time.Masking may be inconsistent. The virus does not spread easily on flights because of the way air is circulated and filtered, but viruses on high-touch surfaces in terminals and on airplanes can increase the risk of exposure via those surfaces.</p>

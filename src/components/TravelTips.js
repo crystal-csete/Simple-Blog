@@ -7,8 +7,8 @@ const TravelTips = () => {
 
 
     return (
-        <div className="travelTipsContainer">
-            <Card className="tipsCard" title="Travel Tips" size="default">
+        <div className="tips_container">
+            <Card className="tips_card" title="Travel Tips" size="default">
                 <Title level={4}><a href="https://toandfrofam.com/2021-travel-tips/" target="_blank">To And Fro Fam</a></Title>
                 <Title level={4}><a href="https://www.aarp.org/travel/travel-tips/safety/info-2020/dream-vacation-planning-benefits.html" target="_blank">AARP</a></Title>
                 <Title level={4}><a href="https://www.smartertravel.com/9-unusual-travel-tricks-that-really-work/" target="_blank">Smarter Travel</a></Title>

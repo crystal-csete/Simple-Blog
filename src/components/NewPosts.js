@@ -3,9 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import postsActions from "../redux/actions/postsActions";
 import newPostActions from "../redux/actions/newPostActions";
 
-import { Input, Typography, Button, Image } from 'antd';
-// import { PictureOutlined } from '@ant-design/icons';
-// import bg from './assests/bg.jpg'
+import { Input, Typography, Button } from 'antd';
 import "./NewPosts.css";
 
 const NewPost = () => {
@@ -49,8 +47,7 @@ const NewPost = () => {
 
   return (
     <div className="bg_image">
-      {/* <Image fallback={<PictureOutlined />} preview={false} src={bg} alt="background" /> */}
-    
+      
     <div className="new_post_space_filler">
       
       <Title level={3}>This is where you can create a post about your travels.</Title>
