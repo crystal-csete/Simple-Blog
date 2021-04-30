@@ -13,7 +13,7 @@ import CovidFacts from '../components/CovidFacts';
 import 'antd/dist/antd.css';
 import './Sider.css';
 import { Menu, Avatar } from 'antd';
-import { QuestionCircleOutlined, UserOutlined, InfoCircleOutlined, SettingOutlined, EditOutlined, UnorderedListOutlined } from '@ant-design/icons';
+import { QuestionCircleOutlined, AlertOutlined, QuestionCircleFilled, CarOutlined, UserOutlined, InfoCircleOutlined, SettingOutlined, EditOutlined, UnorderedListOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
 
@@ -55,15 +55,15 @@ const Sider = () =>  {
           <SubMenu key="sub4" icon={<InfoCircleOutlined />} title="Travel Info">
 
             <Menu.Item key="7">
-              <Link to="/travelDestinations"> Top 5 Travel Desinations</Link>
+              <Link to="/travelDestinations"><CarOutlined /> Travel Desinations</Link>
             </Menu.Item>
             
             <Menu.Item key="8">
-              <Link to="/travelTips"> Travel Tips</Link>
+              <Link to="/travelTips"><QuestionCircleFilled /> Travel Tips</Link>
             </Menu.Item>
             
             <Menu.Item key="9">
-              <Link to="/covidFacts"> Covid facts</Link> 
+              <Link to="/covidFacts"><AlertOutlined /> Covid facts</Link> 
             </Menu.Item>
           
           </SubMenu>
