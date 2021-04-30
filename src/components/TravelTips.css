@@ -1,0 +1,12 @@
+/* travelTips styles */
+
+.travelTipsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid pink;
+    background-color: gray;
+    min-height: 90vh;
+    height: 100%;
+}
