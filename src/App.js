@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <Title level={3}>Welcome to my Travel blog Page!</Title>
+      <Title level={1}>Traveling Always</Title>
       <Sider />
       <Footer />
     </div>
